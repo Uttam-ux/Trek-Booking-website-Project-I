@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century gothic;
+}
+body{
+	background-color: white;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../font.jpg);
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+.slide{
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+}
+.slide button{
+	text-decoration: none;
+	color: black;
+	position: 70px;
+	padding: 5px 40px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+}
+.slide button:hover{
+	background-color: blue;
+	color: black;
+}
+.main{
+	display:none;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-right: auto;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	transition: 0.6s ease;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+h1{
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+	margin-right: 300px;
+
+}
+.regform{
+	justify-content: center;
+	background: black;
+	background-size: cover;	
+	color: #fff;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+.box{
+	width:500px;
+}
+.box h3{
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.box ul{
+	position: relative;
+	background: #fff;
+
+}
+.box ul li{
+	color: white;
+	list-style: none;
+	padding: 15px;
+	width: 100%;
+	background: black;
+	box-shadow: 0.5px 25px rgba(0,0,0,.1);
+	transition: transform 0.5s
+}
+.box ul li:hover{
+	transform: scale(1.1);
+	z-index: 100;
+	background:#25bcff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.2);
+	color: #fff;
+
+}
+.box ul a{
+	text-decoration: none;
+}
+#gos{
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#gos h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#gos table{
+	border: 1px solid;
+	margin-left: 25%;
+	width: 60%;
+}
+#gos table td{
+	border: 1px solid;
+
+}
+#ebc{
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#ebc h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#ebc table{
+	border: 1px solid;
+	margin-left: 25%;
+	width: 60%;
+}
+#ebc table td{
+	border: 1px solid;
+}
+
+#abc{
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#abc h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#abc table{
+	margin-left: 25%;
+	width: 60%;
+}
+#abc table td{
+	border: 1px solid;
+}
+#shey{
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#shey h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#shey table{
+	margin-left: 25%;
+	width: 60%;
+}
+#shey table td{
+	border: 1px solid;
+}
+#tsho{
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#tsho h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#tsho table{
+	margin-left: 25%;
+	width: 60%;
+}
+#tsho table td{
+	border: 1px solid;
+}
