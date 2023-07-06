@@ -1,0 +1,9 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+.main{
+	height: 300px;
+	width: 700px;
+	background: gray;
+}

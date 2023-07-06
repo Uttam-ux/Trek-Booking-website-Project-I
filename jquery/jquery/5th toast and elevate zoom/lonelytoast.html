@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>toast</title>
+	<link rel="stylesheet" type="text/css" href="jquery.toast.min.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="jquery.toast.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$.toast({
+				text:'your device is being hacked',
+				heading:'hacker:',
+				icon:'success',
+				positon:'top right',
+				hideAfter:6000,
+			})
+		})
+	$(document).ready(function(){
+		$.toast({
+			text:'you are a loser',
+			heading:'loser',
+			icon:'error',
+			hideAfter:7000,
+		})
+	})
+		</script>
+</head>
+<body>
+
+</body>
+</html>

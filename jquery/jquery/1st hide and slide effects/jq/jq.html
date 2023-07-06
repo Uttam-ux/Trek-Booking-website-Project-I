@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#hide').click(function(){
+		$('#main').hide(5000,function(){
+			alert("this is hide effect");
+		});
+	})
+// .........
+$('#show').click(function(){
+	$('#main').show(5000,function(){
+		alert("this is show effect");
+	});
+})
+
+$('#toggle').click(function(){
+	$('#main').toggle(2000);
+})
+// .........................
+$('#slideup').click(function(){
+	$('#main').slideUp(2000);
+})
+
+$('#slidedown').click(function(){
+	$('#main').slideDown(2000);
+})
+$('#slidetoggle').click(function(){
+	$('#main').slideToggle(2000);
+})
+
+})
+</script>
+</head>
+<body>
+
+<div id="main"></div>
+<button id="hide">hide</button>
+<button id="show">show</button>
+<button id="toggle">hide/show</button>
+<button id="slideup">slideup</button>
+<button id="slidedown">slidedown</button>
+<button id="slidetoggle">up/down</button>
+</body>
+</html>

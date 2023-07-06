@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>append and prepend</title>
+	<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#append').click(function(){
+		$('ol').append("<li>cat</li>");
+	});
+			$('#prepend').click(function(){
+		$('ol').prepend("<li>computer</li>");
+	});
+			$('#fadein').click(function(){
+			$('#main').fadeIn(2000,function(){
+				alert("this is fade in effect");
+			});
+		});
+				$('#fadeout').click(function(){
+			$('#main').fadeOut(2000,function(){
+				alert("this is fade out effect");
+			});
+		});
+					$('#fadetoggle').click(function(){
+			$('#main').fadeToggle(2000,function(){
+				alert("this is fade toggle effect");
+			});
+		});
+		
+});	
+	</script>
+	<style type="text/css">
+	*{margin: 0px auto;
+		padding: 0px;
+	}
+	#main{
+		height: 500px;
+		width: 500px;
+		background: gray;
+	}
+	</style>
+</head>
+<body>
+<center><ol>
+<li>apple</li>
+</ol>
+<button id="append">append</button>
+<button id="prepend">prepend</button>
+
+<div id="main"></div>
+
+<button id="fadein">fadein</button>
+<button id="fadeout">fadeout</button>
+<button id="fadetoggle">fadetoggle</button>
+</center>
+</body>
+</html>

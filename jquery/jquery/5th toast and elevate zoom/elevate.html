@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>elevate zoom</title>
+
+</head>
+<body>
+<img src="1.jpg" id="elevate-image1" data-zoom-image="1.jpg" height="300px" width="500px"><br>
+<img src="2.jpg" id="elevate-image2" data-zoom-image="2.jpg" height="300px" width="500px"><br>
+<img src="3.jpg" id="elevate-image3" data-zoom-image="3.jpg" height="300px" width="500px"><br>
+<img src="4.jpg" id="elevate-image4" data-zoom-image="4.jpg" height="300px" width="500px"><br>
+<img src="5.jpg" id="elevate-image5" data-zoom-image="5.jpg" height="300px" width="500px">
+
+
+<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="jquery.elevateZoom-3.0.8.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+	$('#elevate-image1').elevateZoom({tint:true,
+	tintColour:'#F90',
+	tintOpacity:0.5
+
+	});
+	$('#elevate-image2').elevateZoom({tint:true,
+	tintColour:'#F90',
+	tintOpacity:0.5
+
+	});
+	$('#elevate-image4').elevateZoom({
+	zoomType: "lens", lensShape : "round", lensSize : 200 
+	});
+	$('#elevate-image3').elevateZoom({tint:true,
+	tintColour:'#F90',
+	tintOpacity:0.5
+
+	});
+	$('#elevate-image5').elevateZoom({tint:true,
+	tintColour:'#F90',
+	tintOpacity:0.5
+
+	});
+
+
+
+})
+</script>
+</body>
+</html>

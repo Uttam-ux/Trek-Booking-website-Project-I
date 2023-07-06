@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>jquery</title>
+	<link rel="stylesheet" type="text/css" href="jq.css">
+	<script type="text/javascript"src="jquery-1.12.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+//for hide and show effect			
+			$('#hide').click(function(){
+				$('.main').hide(2000,function(){
+					alert("this is hide effect");
+				});
+			});
+		
+			$('#show').click(function(){
+				$('.main').show(2000,function(){
+					alert("this is show effect");
+				});
+			});
+		
+			$('#toggle').click(function(){
+				$('.main').toggle(2000,function(){
+					alert("this is toggle effect");
+				});
+			});
+//for slide effect
+		
+			$('#slideup').click(function(){
+				$('.main').slideUp(2000,function(){
+					alert("this is slide effect");
+				});
+			});
+			$('#slidedown').click(function(){
+				$('.main').slideDown(2000,function(){
+					alert("this is slide effect");
+				});
+			});
+			$('#slidetoggle').click(function(){
+				$('.main').slideToggle(2000,function(){
+					alert("this is slide toggle effect");
+				});
+			});
+
+});
+
+
+		</script>
+
+</head>
+<body>
+<div class="main"></div>
+<center>
+<button id="hide">hide</button>
+<button id="show">show</button>
+<button id="toggle">hide/show</button>
+<button id="slideup">slideup</button>
+<button id="slidedown">slidedown</button>
+<button id="slidetoggle">slide up/down</button>
+</center>
+</body>
+</html>
